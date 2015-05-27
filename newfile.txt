@@ -1,0 +1,59 @@
+//initial git
+git init //initialize the git of that folder
+git status
+git add webpage.html
+git add jQuery.js
+git add style.css
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "add three files to local git"
+git log
+
+//push to github
+git remote add github <Repositorylink> //pointer to your repository press insert key to paste in
+git remote -v
+git push github master //master =master branch
+
+//create new branch
+git branch newbranch
+git checkout newbranch //move into new branch
+git add newfile.txt
+git commit -m "comments"
+git log 
+git push github newbranch
+
+//update a file
+change the file content for jQuery.js
+git add jQuery.js
+git status
+git commit -m "comments"
+git push github master//initial git
+git init
+git status
+git add webpage.html
+git add jQuery.js
+git add style.css
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "add three files to local git"
+git log
+
+//push to github
+git remote add github <link>
+git remote -v
+git push github master
+
+//create new branch
+git branch newbranch
+git checkout newbranch
+git add newfile.txt
+git commit -m "comments"
+git log 
+git push github newbranch
+
+//update a file
+change the file content for jQuery.js
+git add jQuery.js
+git status
+git commit -m "comments"
+git push github master
